@@ -1,0 +1,130 @@
+.header {
+  background: url(../img/m-h-day.jpg) no-repeat; }
+
+body {
+  background: #ffffff; }
+  body .header {
+    background-size: 1300px  900px;
+    background-position: 55% 45%;
+    border-radius: 0 0 500px 0 / 0 0 250px 0;
+    width: 1300px;
+    height: 600px; }
+    body .header .header-wrap .landing-logo {
+      font: bold 22px "Hind", sans-serif;
+      color: #2e3340;
+      width: 30px;
+      height: 30px;
+      padding: 0 190px 20px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      line-height: 13px; }
+      body .header .header-wrap .landing-logo img {
+        padding: 10px 10px;
+        width: 40px;
+        height: 40px; }
+      body .header .header-wrap .landing-logo p span {
+        font: normal 10px "Hind", sans-serif;
+        text-align: center;
+        display: block; }
+    body .header .header-wrap .header_heading, body .header .header-wrap .header_text {
+      font: bold 64px "Source Sans Pro", sans-serif;
+      color: #282b39;
+      padding: 0 140px;
+      width: 500px;
+      height: 100px;
+      line-height: 70px; }
+    body .header .header-wrap .header_text {
+      font-size: 14px;
+      font-family: "Hind", sans-serif;
+      color: #2e3340;
+      width: 600px;
+      line-height: 20px;
+      white-space: pre-line; }
+    body .header .header-wrap .header_button {
+      font: normal 16px "Hind", sans-serif;
+      color: #ffffff;
+      width: 120px;
+      height: 40px;
+      border: none;
+      margin: 30px 140px;
+      background: #699a00; }
+  body .section, body .section .section_card_wrap {
+    font: 600 48px "Source Sans Pro", sans-serif;
+    text-align: center;
+    color: #292c36;
+    min-height: 100%;
+    background: #ffffff; }
+    body .section .section_card_wrap {
+      display: flex;
+      background: #ffffff;
+      font-size: 26px; }
+      body .section .section_card_wrap .section_card {
+        color: #ffffff;
+        border-radius: 7px;
+        background: #282b39;
+        margin: 0 10px; }
+        body .section .section_card_wrap .section_card .section_card_img {
+          text-align: center;
+          border-radius: 7px;
+          width: 400px;
+          height: 270px;
+          margin: 25px 25px 0 25px; }
+        body .section .section_card_wrap .section_card .section_card_heading {
+          box-shadow: inset 0 -15px #0ca1c8;
+          display: inline;
+          background-position: bottom; }
+        body .section .section_card_wrap .section_card .section_card_text {
+          font: normal 17px "Hind", sans-serif;
+          color: lightgrey;
+          padding: 0 30px; }
+    body .section .section_banner {
+      width: 900px;
+      height: 150px;
+      margin: 150px 150px 150px;
+      padding: 10px 0 0 100px;
+      text-align: left;
+      border: none;
+      border-radius: 7px;
+      display: flex;
+      background: linear-gradient(90deg, #699a00, #2b5cd0); }
+      body .section .section_banner .section_banner_text_wrap {
+        font: bold 32px "Source Sans Pro", sans-serif; }
+      body .section .section_banner .section_banner_text {
+        font: normal 18px "Hind", sans-serif;
+        color: lightgrey; }
+      body .section .section_banner .section_banner_button {
+        font: bold 18px "Hind", sans-serif;
+        color: #ffffff;
+        width: 150px;
+        height: 50px;
+        border: none;
+        margin: 50px 0 50px 200px;
+        background: #699a00; }
+  body .footer {
+    position: absolute;
+    bottom: -1;
+    left: 0;
+    width: 100%;
+    height: 200px;
+    background: #2b5cd0;
+    padding: 10px 100px 20px;
+    color: lightgrey; }
+    body .footer footer-wrap .footer_logo {
+      display: inline;
+      font: bold 22px "Hind", sans-serif; }
+      body .footer footer-wrap .footer_logo img {
+        padding: 50px 10px;
+        width: 40px;
+        height: 40px; }
+      body .footer footer-wrap .footer_logo p span {
+        font: normal 10px "Hind", sans-serif;
+        text-align: center;
+        display: block;
+        color: #ffffff; }
+    body .footer footer-wrap .footer_text {
+      padding: 140px 10px; }
+    body .footer footer-wrap .footer-cr {
+      padding: 150px 10px; }
+
+/*# sourceMappingURL=style1.css.map */
